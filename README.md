@@ -1,5 +1,7 @@
-# AEP_Repository_Final_Project
+[README.md](https://github.com/user-attachments/files/32127033/README.md)
 # PSE em Ação — Sistema de Planejamento e Acompanhamento de Ações de Saúde na Escola
+
+> Aplicação em linguagem C, executada em terminal, para registrar e acompanhar as ações coletivas do Programa Saúde na Escola — sem armazenar dados individuais de estudantes.
 
 Atividade de Estudo Prático (AEP) — 2º semestre de 2026
 Universidade Cesumar (UNICESUMAR) — Curso de Engenharia de Software
@@ -44,10 +46,19 @@ O sistema utiliza **exclusivamente dados fictícios e informações coletivas** 
 - Compilação com GCC
 - Armazenamento em memória durante a execução (vetor de registros, capacidade de 100 ações)
 
+## Conceitos aplicados
+
+O projeto integra as quatro disciplinas do semestre:
+
+- **Produção Textual (METEP):** contextualização, problema de pesquisa, objetivos, justificativa e referências em ABNT
+- **Algoritmos e Lógica de Programação:** fluxograma geral, fluxograma detalhado do cadastro e pseudocódigos das cinco rotinas
+- **Engenharia de Software:** usuários, escopo, 8 requisitos funcionais, 6 não funcionais, matriz de riscos e sprints semanais
+- **Linguagem e Técnicas de Programação:** registros (`struct`), vetores, funções, condicionais, laços e validação de entradas
+
 ## Estrutura do repositório
 
 ```
-pse-em-acao/
+AEP_Repository_Final_Project/
 ├── README.md
 ├── docs/
 │   ├── AEP_Etapa1.pdf
@@ -57,6 +68,10 @@ pse-em-acao/
 └── src/
     └── (código-fonte em C — 2ª etapa)
 ```
+
+## Repositório
+
+https://github.com/eraoleo/AEP_Repository_Final_Project
 
 ## Compilação e execução
 
